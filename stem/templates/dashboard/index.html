@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}Dashboard · S.T.E.M.{% endblock %}
+{% block content %}
+<div class="card shadow-sm">
+  <div class="card-body p-4">
+    <h1 class="h3">Student dashboard</h1>
+    <p class="lead mb-2">Hello, {{ current_user.email }}.</p>
+    <p class="text-muted mb-0">
+      This is your private workspace. Course management, assessments, tasks,
+      and analytics will appear here in later slices.
+    </p>
+  </div>
+</div>
+{% endblock %}

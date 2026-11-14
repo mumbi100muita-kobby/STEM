@@ -1,0 +1,6 @@
+Flask-Migrate (Alembic) migrations for S.T.E.M.
+
+Create or change models, then generate a revision:
+
+    flask --app wsgi:app db migrate -m "Describe the change"
+    flask --app wsgi:app db upgrade

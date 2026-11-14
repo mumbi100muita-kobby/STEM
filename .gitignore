@@ -1,0 +1,30 @@
+# Secrets and local environment
+.env
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Tests and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local databases and Flask instance data
+instance/
+*.db
+*.sqlite3
+
+# Editors and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
